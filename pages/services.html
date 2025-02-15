@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Techno life</title>
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/heart.svg"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="icon" type="image/png" sizes="32x32" href="/images/heart.svg" />
     <style>
       .header {
         padding: 10px 0;
@@ -26,13 +21,12 @@
       .url {
         font-size: 25px;
       }
-
-      .list {
-        text-align: center;
-        list-style-position: inside;
-        align-items: center;
+      .services{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
       }
-      .footer {
+        .footer {
         padding: 20px;
         text-align: center;
         background-color: rgb(141, 101, 53);
@@ -50,53 +44,33 @@
         font-size: 20px;
       }
     </style>
-  </head>
-  <body style="background-color: rgb(211, 210, 210)">
-    <div class="header">
+</head>
+<body style="background-color: rgb(211, 210, 210)">
+     <div class="header">
       <ul class="nav_link">
-        <li><a href="#" class="url">Bosh Sahifa</a></li>
-        <li><a href="/pages/about-us.html" class="url">Biz haqimizda</a></li>
-        <li><a href="/pages/contact-us.html" class="url">Bizga bog'lanish</a></li>
-        <li><a href="/pages/services.html" class="url">Xizmatlarimiz</a></li>
-        <li><a href="/pages/partners.html" class="url">Hamkorlarimiz</a></li>
+        <li><a href="/index.html" class="url">Bosh Sahifa</a></li>
+        <li><a href="./about-us.html" class="url">Biz haqimizda</a></li>
+        <li><a href="./contact-us.html" class="url">Bizga bog'lanish</a></li>
+        <li><a href="#" class="url">Xizmatlarimiz</a></li>
+        <li><a href="./partners.html" class="url">Hamkorlarimiz</a></li>
       </ul>
     </div>
-    <h1 style="text-align: center">Ko'p yillik tajribaga ega IT kompaniya</h1>
-    <img
-      src="./images/company.png"
-      width="570px"
-      height="220px"
-      alt="company_picture"
-      style="margin-left: 470px"
-    />
-    <h2 style="text-align: center; font-size: 30px">Bizning ustunliklarimiz</h2>
-    <ul class="list">
-      <li
-        style="list-style-image: url(./images/check-black.svg); font-size: 25px"
-      >
-        Tez va sifatli mahsulot
-      </li>
-      <li
-        style="list-style-image: url(./images/check-black.svg); font-size: 25px"
-      >
-        Doimiy yangilanishlar
-      </li>
-      <li
-        style="list-style-image: url(./images/check-black.svg); font-size: 25px"
-      >
-        O'z vaqtida tugatilgan loyihalar
-      </li>
-      <li
-        style="list-style-image: url(./images/check-black.svg); font-size: 25px"
-      >
-        O'ta ahil jamoa
-      </li>
-      <li
-        style="list-style-image: url(./images/check-black.svg); font-size: 25px"
-      >
-        Ko'p yillik tajriba
-      </li>
-    </ul>
+    <h1 style="text-align: center">Bizning xizmatlarimiz</h1>
+    <img src="/images/services.jpg" alt="" style="margin-left: 480px; width: 530px; height: 400px;">
+    <div class="services">
+        <div class="">
+            <h2>1. Web dasturlar yaratish</h2>
+            <img src="/images/web.jpg" alt="" width="350px" height="300px">
+        </div>
+        <div class="">
+            <h2>2. Web dasturlar yaratish</h2>
+            <img src="/images/bot.jpg" alt="" width="350px" height="300px">
+        </div>
+        <div class="">
+            <h2>3. Web dasturlar yaratish</h2>
+            <img src="/images/mobile.png" alt="" width="350px" height="300px">
+        </div>
+    </div>
     <div class="footer">
       <h3 style="font-size: 25px">Ijtimoiy sahifalarimiz</h3>
       <div class="icon">
@@ -105,7 +79,7 @@
           class="inst"
         >
           <img
-            src="./images/instagram.png"
+            src="/images/instagram.png"
             width="30px"
             height="30px"
             alt=""
@@ -117,7 +91,7 @@
           class="inst"
         >
           <img
-            src="./images/facebook.png"
+            src="/images/facebook.png"
             width="30px"
             height="30px"
             alt=""
@@ -139,5 +113,6 @@
         </a>
       </div>
     </div>
-  </body>
+   
+</body>
 </html>
